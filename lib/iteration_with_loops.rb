@@ -5,7 +5,8 @@ min_array=[]
 row_index=0
 while src.length>row_index do 
   p src[row_index]
-  row_index+=1
+  
+  
 end
 
 end
