@@ -4,9 +4,17 @@ def find_min_in_nested_arrays(src)
 min_array=[]
 row_index=0
 while src.length>row_index do 
-  
+  count=0 
+  min_value=src[row_index][0]
+  while count<src[row_index].length do
+    if min_value>src[row_index]
+      min_value=src[row_index]
+    end
+    count+=1
+  end
+  min_array.push(min_value)
   
   row_index+=1
 end
-
+min_array
 end
