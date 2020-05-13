@@ -7,8 +7,8 @@ while src.length>row_index do
   count=0 
   min_value=src[row_index][0]
   while count<src[row_index].length do
-    if min_value>src[row_index]
-      min_value=src[row_index]
+    if min_value>src[row_index][count]
+      min_value=src[row_index][count]
     end
     count+=1
   end
